@@ -1,0 +1,40 @@
+.poemContainer {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  /* height: 350px; */
+  max-width: 200px;
+}
+.poem {
+  height: 350px;
+  overflow: hidden;
+  color: rgba(112, 41, 128, 0.891);
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0;
+  white-space: pre-line;
+}
+
+.arrowImg {
+  width: 30px;
+  height: 30px;
+}
+.arrowButton {
+  background-color: transparent;
+}
+.buttonContainer {
+  display: flex;
+}
+.poemTitle {
+  font-size: 22px;
+  color: rgba(49, 26, 54, 0.891);
+}
+.poemContainer {
+  margin-top: 50px;
+  background-color: rgba(159, 159, 159, 0.699);
+  border-radius: 10px;
+  max-width: 350px;
+}

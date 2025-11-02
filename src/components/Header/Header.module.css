@@ -1,0 +1,5 @@
+.headerText {
+  display: flex;
+  justify-content: center;
+  color: rgba(230, 214, 234, 0.891);
+}
