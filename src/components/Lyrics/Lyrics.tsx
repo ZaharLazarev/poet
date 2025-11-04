@@ -31,14 +31,14 @@ export default function Lyrics({
         <button className={css.arrowButton} onClick={onPrev}>
           <img
             className={css.arrowImg}
-            src="/img/left-arrow-svgrepo-com.svg"
+            src="https://www.svgrepo.com/show/425979/left-arrow.svg"
             alt="Left"
           />
         </button>
         <button className={css.arrowButton} onClick={onNext}>
           <img
             className={css.arrowImg}
-            src="/img/right-arrow-svgrepo-com.svg"
+            src="https://www.svgrepo.com/show/425982/right-arrow.svg"
             alt="Right"
           />
         </button>
@@ -54,14 +54,14 @@ export default function Lyrics({
         <button className={css.arrowButton} onClick={onPrev}>
           <img
             className={css.arrowImg}
-            src="/img/left-arrow-svgrepo-com.svg"
+            src="https://www.svgrepo.com/show/425979/left-arrow.svg"
             alt="Left"
           />
         </button>
         <button className={css.arrowButton} onClick={onNext}>
           <img
             className={css.arrowImg}
-            src="/img/right-arrow-svgrepo-com.svg"
+            src="https://www.svgrepo.com/show/425982/right-arrow.svg"
             alt="Right"
           />
         </button>
