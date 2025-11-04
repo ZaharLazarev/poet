@@ -1,7 +1,10 @@
-export default function Button() {
+interface ModalProps {
+  onChange: () => void;
+}
+export default function Button({ onChange }: ModalProps) {
   return (
     <>
-      <button>Переглянути вірш</button>
+      <button onClick={onChange}>Переглянути вірш</button>
     </>
   );
 }
